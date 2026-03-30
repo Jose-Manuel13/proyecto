@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Tipo de proyecto: aplicación WinForms -->
+    <OutputType>WinExe</OutputType>
+    
+    <!-- Versión de .NET (compatible con .NET 6, 7, 8) -->
+    <TargetFramework>net6.0-windows</TargetFramework>
+    
+    <!-- Nombre del ejecutable que se generará -->
+    <AssemblyName>SistemaEmpleados</AssemblyName>
+    
+    <!-- Espacio de nombres raíz del proyecto -->
+    <RootNamespace>SistemaEmpleados</RootNamespace>
+    
+    <!-- Habilita WinForms -->
+    <UseWindowsForms>true</UseWindowsForms>
+    
+    <!-- Referencia a Microsoft.VisualBasic para InputBox -->
+    <UseWindowsFormsCompatibleContextMenu>true</UseWindowsFormsCompatibleContextMenu>
+    
+    <!-- Nullable references activado -->
+    <Nullable>enable</Nullable>
+    
+    <!-- Versión de C# -->
+    <LangVersion>latest</LangVersion>
+    <UserSecretsId>9c858320-f840-42d6-9c1e-51b78b423769</UserSecretsId>
+  </PropertyGroup>
+
+  <!-- Referencia a Microsoft.VisualBasic.Core para InputBox -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+  </ItemGroup>
+
+</Project>
